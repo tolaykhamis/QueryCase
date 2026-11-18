@@ -1,0 +1,24 @@
+services:
+  postgres:
+    image: postgres:17
+    restart: unless-stopped
+
+    environment:
+      POSTGRES_DB: querycase
+      POSTGRES_USER: qc_owner
+      POSTGRES_PASSWORD: ${QC_POSTGRES_PASSWORD:?Set QC_POSTGRES_PASSWORD in .env}
+
+    ports:
+      - "127.0.0.1:5432:5432"
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U qc_owner -d querycase"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:
