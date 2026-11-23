@@ -1,7 +1,7 @@
 package com.querycase.api;
 
 
-import com.querycase.application.HealthService;
+import com.querycase.application.service.HealthService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.webmvc.test.autoconfigure.WebMvcTest;

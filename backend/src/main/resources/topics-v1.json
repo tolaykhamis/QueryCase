@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "select",
+    "title": "SELECT",
+    "description": "Learn how to retrieve data from a database."
+  },
+  {
+    "slug": "where",
+    "title": "WHERE",
+    "description": "Learn how to filter records using conditions."
+  },
+  {
+    "slug": "join",
+    "title": "JOIN",
+    "description": "Learn how to combine data from multiple tables."
+  }
+]

@@ -1,4 +1,4 @@
-package com.querycase.application;
+package com.querycase.application.service;
 
 import org.junit.jupiter.api.Test;
 
