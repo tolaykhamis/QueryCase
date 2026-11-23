@@ -1,6 +1,6 @@
 package com.querycase.api;
 
-import com.querycase.application.HealthService;
+import com.querycase.application.service.HealthService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
