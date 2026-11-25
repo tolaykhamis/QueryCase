@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "select-basics",
+    "title": "SQL SELECT Basics",
+    "description": "Learn how to retrieve data from database tables using SELECT and FROM statements."
+  },
+  {
+    "slug": "filtering-data",
+    "title": "Filtering Data",
+    "description": "Learn how to filter database records using WHERE conditions and comparison operators."
+  }
+]
+
+
+
